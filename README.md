@@ -8,9 +8,9 @@ Unofficial alternative Kotlin wrapper for the [Magic: The Gathering - Developers
 val mtg = Mtg()
 
 // Obtain all possible cards and sets.
-val mtg.card().all()
+val cards = mtg.card().all()
 
-val mtg.set().all()
+val sets = mtg.set().all()
 ```
 Along with [RxJava3](https://github.com/ReactiveX/RxJava) and querying support, with relevant query fields in [CardQueryBuilder.kt](https://github.com/asefahmed56/magic-tcg-sdk-kotlin/blob/master/app/src/main/java/io/magictcg/requests/CardQueryBuilder.kt) and [CardSetQueryBuilder.kt](https://github.com/asefahmed56/magic-tcg-sdk-kotlin/blob/master/app/src/main/java/io/magictcg/requests/CardSetQueryBuilder.kt).
 
@@ -75,5 +75,5 @@ val types = mtg.types().all()
 val subtypes = mtg.subTypes().all()
 
 // SuperTypes: Basic, Legendary, Ongoing...
-val supertypes = mgt.superTypes().all()
+val supertypes = mtg.superTypes().all()
 ```
