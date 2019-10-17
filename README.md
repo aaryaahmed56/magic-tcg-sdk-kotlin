@@ -27,7 +27,7 @@ mtg.card().observeAll()
 		// Some error...
 	})
   
-// RxJava2 Set Subscription
+// RxJava3 Set Subscription
 mtg.set().observeAll()
 	.subscribe({ sets ->
 		// ...
