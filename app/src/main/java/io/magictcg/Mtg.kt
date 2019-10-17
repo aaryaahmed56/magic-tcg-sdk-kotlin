@@ -32,13 +32,8 @@ class Mtg {
 
         val logging = HttpLoggingInterceptor()
         logging.level = config.logLevel
-        okHttpClient = if (config.client != null) {
-            config.client
-        } else {
-            OkHttpClient.Builder()
-                .addInterceptor(logging)
-                .build()
-        }
+        okHttpClient = config.client ?: OkHttpClient.Builder().
+            addInterceptor(logging).build()
 
         val retroFit = Retrofit.Builder()
             .baseUrl(config.apiUrl)
