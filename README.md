@@ -1,5 +1,5 @@
 # magic-tcg-sdk-kotlin
-Unofficial alternative Kotlin wrapper for the [Magic: The Gathering - Developers API](https://magicthegathering.io/)
+Unofficial alternative Kotlin wrapper for the [Magic: The Gathering - Developers API](https://magicthegathering.io/).
 
 ## Usage
 
