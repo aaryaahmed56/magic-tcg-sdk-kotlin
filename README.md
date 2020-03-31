@@ -1,5 +1,6 @@
 # magic-tcg-sdk-kotlin
-Unofficial alternative Kotlin wrapper for the [Magic: The Gathering - Developers API](https://magicthegathering.io/) implementing the structure of the one for Pokemon, i.e. [pokemon-tcg-sdk-kotlin](https://github.com/PokemonTCG/pokemon-tcg-sdk-kotlin).
+Unofficial alternative Kotlin wrapper for the [Magic: The Gathering - Developers API](https://magicthegathering.io/)
+
 ## Usage
 
 ### Cards, Sets
